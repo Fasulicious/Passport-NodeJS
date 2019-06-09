@@ -1,0 +1,33 @@
+{
+  "name": "passport-example",
+  "version": "0.0.1",
+  "description": "A simple example of how to use passport in node js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index -e .pug,.js --exec babel-node",
+    "build": "babel src --out-dir dist --copy-files",
+    "start": "yarn run build && node dist/index.js"
+  },
+  "author": "Antonio Soto <fantoniosoto@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "argon2": "^0.23.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.13",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "rand-token": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
