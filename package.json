@@ -14,7 +14,7 @@
     "@babel/polyfill": "^7.4.4",
     "argon2": "^0.23.0",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.5.13",
     "passport": "^0.4.0",
     "passport-facebook": "^3.0.0",
